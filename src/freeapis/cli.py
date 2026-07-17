@@ -36,12 +36,12 @@ def main(argv: list[str] | None = None) -> int:
                     file=sys.stderr,
                 )
                 return 1
-            print("Updated data/models.json and both READMEs.")
+            print("Updated models.json, README navigation, and provider pages.")
             return 0
         if args.command == "render":
             document = load_document(DATA_PATH)
             render_readmes(document, README_PATHS)
-            print("Rendered both READMEs from data/models.json.")
+            print("Rendered README navigation and provider pages from models.json.")
             return 0
         errors = check_repository()
         if errors:
