@@ -1,0 +1,642 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-07-17T15:48:13Z",
+  "providers": {
+    "openrouter": {
+      "status": "fresh",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_successful_update": "2026-07-17"
+    },
+    "groq": {
+      "status": "fresh",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_successful_update": "2026-07-17"
+    },
+    "gemini": {
+      "status": "fresh",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_successful_update": "2026-07-17"
+    }
+  },
+  "models": [
+    {
+      "provider": "openrouter",
+      "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "name": "Venice: Uncensored (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "cohere/north-mini-code:free",
+      "name": "Cohere: North Mini Code (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/cohere/north-mini-code:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/gemma-4-26b-a4b-it:free",
+      "name": "Google: Gemma 4 26B A4B  (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/google/gemma-4-26b-a4b-it:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "google/gemma-4-31b-it:free",
+      "name": "Google: Gemma 4 31B (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/google/gemma-4-31b-it:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "meta-llama/llama-3.2-3b-instruct:free",
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/meta-llama/llama-3.2-3b-instruct:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "meta-llama/llama-3.3-70b-instruct:free",
+      "name": "Meta: Llama 3.3 70B Instruct (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/meta-llama/llama-3.3-70b-instruct:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "name": "Nous: Hermes 3 405B Instruct (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nousresearch/hermes-3-llama-3.1-405b:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "name": "NVIDIA: Nemotron 3 Super (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
+      "name": "NVIDIA: Nemotron 3 Ultra (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-3-ultra-550b-a55b:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "nvidia/nemotron-nano-9b-v2:free",
+      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "openai/gpt-oss-20b:free",
+      "name": "OpenAI: gpt-oss-20b (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/openai/gpt-oss-20b:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "poolside/laguna-m.1:free",
+      "name": "Poolside: Laguna M.1 (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/poolside/laguna-m.1:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "poolside/laguna-xs-2.1:free",
+      "name": "Poolside: Laguna XS 2.1 (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/poolside/laguna-xs-2.1:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "qwen/qwen3-coder:free",
+      "name": "Qwen: Qwen3 Coder 480B A35B (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/qwen/qwen3-coder:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/qwen/qwen3-next-80b-a3b-instruct:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "openrouter",
+      "model_id": "tencent/hy3:free",
+      "name": "Tencent: Hy3 (free)",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_variant",
+      "model_url": "https://openrouter.ai/tencent/hy3:free",
+      "api_key_url": "https://openrouter.ai/settings/keys",
+      "docs_url": "https://openrouter.ai/docs/quickstart",
+      "source_url": "https://openrouter.ai/api/v1/models",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "allam-2-7b",
+      "name": "ALLaM-2-7b",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/allam-2-7b",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "canopylabs/orpheus-arabic-saudi",
+      "name": "Canopy Labs Orpheus Arabic Saudi",
+      "output_types": [
+        "audio"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/canopylabs/orpheus-arabic-saudi",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "canopylabs/orpheus-v1-english",
+      "name": "Canopy Labs Orpheus V1 English",
+      "output_types": [
+        "audio"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/canopylabs/orpheus-v1-english",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "llama-3.1-8b-instant",
+      "name": "Llama 3.1 8B",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/llama-3.1-8b-instant",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "llama-3.3-70b-versatile",
+      "name": "Llama 3.3 70B",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/llama-3.3-70b-versatile",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "name": "Llama 4 Scout 17B 16E",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/meta-llama/llama-4-scout-17b-16e-instruct",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "openai/gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/openai/gpt-oss-120b",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "openai/gpt-oss-20b",
+      "name": "GPT OSS 20B",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/openai/gpt-oss-20b",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "qwen/qwen3-32b",
+      "name": "Qwen3-32B",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/qwen/qwen3-32b",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "groq",
+      "model_id": "qwen/qwen3.6-27b",
+      "name": "Qwen/Qwen3.6-27B",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_plan",
+      "model_url": "https://console.groq.com/docs/model/qwen/qwen3.6-27b",
+      "api_key_url": "https://console.groq.com/keys",
+      "docs_url": "https://console.groq.com/docs/quickstart",
+      "source_url": "https://console.groq.com/docs/rate-limits",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.0-flash",
+      "name": "Gemini 2.0 Flash",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.0-flash-lite",
+      "name": "Gemini 2.0 Flash-Lite",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.0-flash-lite",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-lite",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.5-flash-lite-preview-09-2025",
+      "name": "Gemini 2.5 Flash-Lite Preview",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-lite-preview",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.5-flash-native-audio-preview-12-2025",
+      "name": "Gemini 2.5 Flash Native Audio (Live API)",
+      "output_types": [
+        "text",
+        "audio"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-native-audio",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.5-flash-preview-tts",
+      "name": "Gemini 2.5 Flash Preview TTS",
+      "output_types": [
+        "audio"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-flash-preview-tts",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-2.5-pro",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3-flash-preview",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-3.1-flash-lite",
+      "name": "Gemini 3.1 Flash-Lite",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-lite",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-3.1-flash-live-preview",
+      "name": "Gemini 3.1 Flash Live Preview",
+      "output_types": [
+        "text",
+        "audio"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-live-preview",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-3.1-flash-tts-preview",
+      "name": "Gemini 3.1 Flash TTS Preview",
+      "output_types": [
+        "audio"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.1-flash-tts-preview",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-3.5-flash",
+      "name": "Gemini 3.5 Flash",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-flash",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-3.5-live-translate-preview",
+      "name": "Gemini 3.5 Live Translate",
+      "output_types": [
+        "text",
+        "audio"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-3.5-live-translate-preview",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    },
+    {
+      "provider": "gemini",
+      "model_id": "gemini-robotics-er-1.6-preview",
+      "name": "Gemini Robotics-ER 1.6 Preview",
+      "output_types": [
+        "text"
+      ],
+      "free_type": "free_tier",
+      "model_url": "https://ai.google.dev/gemini-api/docs/pricing#gemini-robotics-er",
+      "api_key_url": "https://aistudio.google.com/app/apikey",
+      "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
+      "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "last_updated": "2026-07-17"
+    }
+  ]
+}

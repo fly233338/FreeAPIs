@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "FreeAPIs"
+version = "0.1.0"
+description = "A credential-free, automatically updated directory of free generative AI models."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "FreeAPIs contributors" }]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+  "beautifulsoup4>=4.12,<5",
+  "httpx>=0.27,<1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8.3,<10"]
+
+[project.scripts]
+freeapis = "freeapis.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/freeapis"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

@@ -1,0 +1,53 @@
+{
+  "data": [
+    {
+      "id": "example/text:free",
+      "name": "Example Text (free)",
+      "description": "A generative language model.",
+      "architecture": {"output_modalities": ["text"]},
+      "pricing": {"prompt": "0", "completion": "0"}
+    },
+    {
+      "id": "example/multimodal:free",
+      "name": "Image & Audio | Model",
+      "description": "Generates images and audio.",
+      "architecture": {"output_modalities": ["audio", "image"]},
+      "pricing": {"prompt": "0.0", "completion": "0.000"}
+    },
+    {
+      "id": "example/paid",
+      "name": "Paid model",
+      "description": "Not a free variant.",
+      "architecture": {"output_modalities": ["text"]},
+      "pricing": {"prompt": "0.01", "completion": "0.01"}
+    },
+    {
+      "id": "example/not-really-free:free",
+      "name": "Inconsistent model",
+      "description": "Free suffix with a non-zero output price.",
+      "architecture": {"output_modalities": ["text"]},
+      "pricing": {"prompt": "0", "completion": "0.01"}
+    },
+    {
+      "id": "example/embedding:free",
+      "name": "Embedding model",
+      "description": "Creates embeddings.",
+      "architecture": {"output_modalities": ["embeddings"]},
+      "pricing": {"prompt": "0", "completion": "0"}
+    },
+    {
+      "id": "example/content-safety:free",
+      "name": "Content Safety",
+      "description": "A safety classifier.",
+      "architecture": {"output_modalities": ["text"]},
+      "pricing": {"prompt": "0", "completion": "0"}
+    },
+    {
+      "id": "openrouter/free",
+      "name": "Free Models Router",
+      "description": "A router, not a concrete model.",
+      "architecture": {"output_modalities": ["text"]},
+      "pricing": {"prompt": "0", "completion": "0"}
+    }
+  ]
+}
