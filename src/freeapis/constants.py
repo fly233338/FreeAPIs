@@ -16,6 +16,6 @@ FREE_TYPES = ("free_variant", "free_plan", "free_tier")
 OUTPUT_TYPE_ORDER = ("text", "image", "audio", "video")
 PROVIDER_STATUSES = ("fresh", "stale")
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path.cwd()
 DATA_PATH = ROOT / "data" / "models.json"
 README_PATHS = (ROOT / "README.md", ROOT / "README.zh-CN.md")
