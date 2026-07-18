@@ -14,9 +14,9 @@ CI 提交任何平台 API Key。免费状态和限制可能随时变化；正式
 <!-- BEGIN GENERATED MODELS -->
 | 平台 | 状态 | 模型数 | 输出类型 | 免费类型 | 最近更新 | 完整列表 |
 |---|---|---:|---|---|---|---|
-| [OpenRouter](<https://openrouter.ai/api/v1/models>) | <code>fresh</code> | 19 | <code>text</code> | <code>free_variant</code> | 2026-07-17 | [查看模型](<providers/openrouter/README.zh-CN.md>) |
-| [Groq](<https://console.groq.com/docs/rate-limits>) | <code>fresh</code> | 10 | <code>text</code>, <code>audio</code> | <code>free_plan</code> | 2026-07-17 | [查看模型](<providers/groq/README.zh-CN.md>) |
-| [Gemini](<https://ai.google.dev/gemini-api/docs/pricing>) | <code>fresh</code> | 15 | <code>text</code>, <code>audio</code> | <code>free_tier</code> | 2026-07-17 | [查看模型](<providers/gemini/README.zh-CN.md>) |
+| [OpenRouter](<https://openrouter.ai/api/v1/models>) | <code>fresh</code> | 19 | <code>text</code> | <code>free_variant</code> | 2026-07-18 | [查看模型](<providers/openrouter/README.zh-CN.md>) |
+| [Groq](<https://console.groq.com/docs/rate-limits>) | <code>fresh</code> | 7 | <code>text</code>, <code>audio</code> | <code>free_plan</code> | 2026-07-18 | [查看模型](<providers/groq/README.zh-CN.md>) |
+| [Gemini](<https://ai.google.dev/gemini-api/docs/pricing>) | <code>fresh</code> | 15 | <code>text</code>, <code>audio</code> | <code>free_tier</code> | 2026-07-18 | [查看模型](<providers/gemini/README.zh-CN.md>) |
 <!-- END GENERATED MODELS -->
 
 ## 收录规则
