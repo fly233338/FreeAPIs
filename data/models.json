@@ -1,21 +1,21 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-24T01:57:15Z",
+  "generated_at": "2026-08-25T01:51:50Z",
   "providers": {
     "openrouter": {
       "status": "fresh",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_successful_update": "2026-08-24"
+      "last_successful_update": "2026-08-25"
     },
     "groq": {
       "status": "fresh",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_successful_update": "2026-08-24"
+      "last_successful_update": "2026-08-25"
     },
     "gemini": {
       "status": "fresh",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_successful_update": "2026-08-24"
+      "last_successful_update": "2026-08-25"
     }
   },
   "models": [
@@ -31,7 +31,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -45,7 +45,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -59,7 +59,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -73,7 +73,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -87,21 +87,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
-    },
-    {
-      "provider": "openrouter",
-      "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
-      "name": "NVIDIA: Nemotron 3 Nano 30B A3B (free)",
-      "output_types": [
-        "text"
-      ],
-      "free_type": "free_variant",
-      "model_url": "https://openrouter.ai/nvidia/nemotron-3-nano-30b-a3b:free",
-      "api_key_url": "https://openrouter.ai/settings/keys",
-      "docs_url": "https://openrouter.ai/docs/quickstart",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -115,7 +101,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -129,7 +115,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -143,7 +129,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -157,35 +143,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
-    },
-    {
-      "provider": "openrouter",
-      "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
-      "name": "NVIDIA: Nemotron Nano 12B 2 VL (free)",
-      "output_types": [
-        "text"
-      ],
-      "free_type": "free_variant",
-      "model_url": "https://openrouter.ai/nvidia/nemotron-nano-12b-v2-vl:free",
-      "api_key_url": "https://openrouter.ai/settings/keys",
-      "docs_url": "https://openrouter.ai/docs/quickstart",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
-    },
-    {
-      "provider": "openrouter",
-      "model_id": "nvidia/nemotron-nano-9b-v2:free",
-      "name": "NVIDIA: Nemotron Nano 9B V2 (free)",
-      "output_types": [
-        "text"
-      ],
-      "free_type": "free_variant",
-      "model_url": "https://openrouter.ai/nvidia/nemotron-nano-9b-v2:free",
-      "api_key_url": "https://openrouter.ai/settings/keys",
-      "docs_url": "https://openrouter.ai/docs/quickstart",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -199,7 +157,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -213,7 +171,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -227,7 +185,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -241,7 +199,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "openrouter",
@@ -255,7 +213,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "groq",
@@ -269,7 +227,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "groq",
@@ -283,7 +241,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "groq",
@@ -297,7 +255,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "groq",
@@ -311,7 +269,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "groq",
@@ -325,7 +283,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -339,7 +297,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -353,7 +311,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -367,7 +325,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -381,7 +339,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -395,7 +353,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -410,7 +368,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -424,7 +382,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -438,7 +396,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -452,7 +410,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -466,7 +424,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -481,7 +439,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -495,7 +453,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -509,7 +467,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -523,7 +481,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -538,7 +496,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -552,7 +510,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -566,7 +524,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -580,7 +538,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -594,7 +552,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     },
     {
       "provider": "gemini",
@@ -608,7 +566,7 @@
       "api_key_url": "https://aistudio.google.com/app/apikey",
       "docs_url": "https://ai.google.dev/gemini-api/docs/quickstart",
       "source_url": "https://ai.google.dev/gemini-api/docs/pricing",
-      "last_updated": "2026-08-24"
+      "last_updated": "2026-08-25"
     }
   ]
 }
