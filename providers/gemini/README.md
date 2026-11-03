@@ -3,7 +3,9 @@
 [← Back to FreeAPIs](../../README.md) · [简体中文](README.zh-CN.md)
 
 <!-- BEGIN GENERATED MODELS -->
-Official source: [link](<https://ai.google.dev/gemini-api/docs/pricing>) · Status: <code>fresh</code> · Last successful update: 2026-11-02
+Official source: [link](<https://ai.google.dev/gemini-api/docs/pricing>) · Status: <code>stale</code> · Last successful update: 2026-11-02
+
+> ⚠️ The latest fetch for this provider failed; listed data may be stale.
 
 | Model ID | Name | Outputs | Free type | Official links | Last confirmed |
 |---|---|---|---|---|---|

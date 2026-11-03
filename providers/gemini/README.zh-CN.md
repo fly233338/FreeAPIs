@@ -3,7 +3,9 @@
 [← 返回 FreeAPIs](../../README.zh-CN.md) · [English](README.md)
 
 <!-- BEGIN GENERATED MODELS -->
-官方来源：[链接](<https://ai.google.dev/gemini-api/docs/pricing>) · 状态：<code>fresh</code> · 最近成功更新：2026-11-02
+官方来源：[链接](<https://ai.google.dev/gemini-api/docs/pricing>) · 状态：<code>stale</code> · 最近成功更新：2026-11-02
+
+> ⚠️ 本平台最近一次抓取失败，所列数据可能已经过期。
 
 | 模型 ID | 名称 | 输出 | 免费类型 | 官方链接 | 最后确认 |
 |---|---|---|---|---|---|
