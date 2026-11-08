@@ -16,8 +16,8 @@ current provider terms before relying on a model.
 <!-- BEGIN GENERATED MODELS -->
 | Provider | Status | Models | Outputs | Free type | Last update | Full list |
 |---|---|---:|---|---|---|---|
-| [OpenRouter](<https://openrouter.ai/api/v1/models>) | <code>fresh</code> | 12 | <code>text</code> | <code>free_variant</code> | 2026-11-07 | [View models](<providers/openrouter/README.md>) |
-| [Groq](<https://console.groq.com/docs/rate-limits>) | <code>fresh</code> | 5 | <code>text</code>, <code>audio</code> | <code>free_plan</code> | 2026-11-07 | [View models](<providers/groq/README.md>) |
+| [OpenRouter](<https://openrouter.ai/api/v1/models>) | <code>fresh</code> | 12 | <code>text</code> | <code>free_variant</code> | 2026-11-08 | [View models](<providers/openrouter/README.md>) |
+| [Groq](<https://console.groq.com/docs/rate-limits>) | <code>fresh</code> | 5 | <code>text</code>, <code>audio</code> | <code>free_plan</code> | 2026-11-08 | [View models](<providers/groq/README.md>) |
 | [Gemini](<https://ai.google.dev/gemini-api/docs/pricing>) | <code>stale</code> ⚠️ | 19 | <code>text</code>, <code>audio</code> | <code>free_tier</code> | 2026-11-02 | [View models](<providers/gemini/README.md>) |
 <!-- END GENERATED MODELS -->
 
