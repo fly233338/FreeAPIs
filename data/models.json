@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T06:43:52Z",
+  "generated_at": "2026-11-14T06:21:03Z",
   "providers": {
     "openrouter": {
       "status": "fresh",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_successful_update": "2026-11-13"
+      "last_successful_update": "2026-11-14"
     },
     "groq": {
       "status": "fresh",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_successful_update": "2026-11-13"
+      "last_successful_update": "2026-11-14"
     },
     "gemini": {
       "status": "stale",
@@ -19,20 +19,6 @@
     }
   },
   "models": [
-    {
-      "provider": "openrouter",
-      "model_id": "apodex/apodex-1.1-mini:free",
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "output_types": [
-        "text"
-      ],
-      "free_type": "free_variant",
-      "model_url": "https://openrouter.ai/apodex/apodex-1.1-mini:free",
-      "api_key_url": "https://openrouter.ai/settings/keys",
-      "docs_url": "https://openrouter.ai/docs/quickstart",
-      "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
-    },
     {
       "provider": "openrouter",
       "model_id": "baidu/ernie-5.5-flash-preview:free",
@@ -45,7 +31,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -59,7 +45,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -73,7 +59,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -87,7 +73,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -101,21 +87,21 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
-      "model_id": "liquid/lfm-2.5-2.6b:free",
-      "name": "LiquidAI: LFM2.5-2.6B (free)",
+      "model_id": "inclusionai/ling-3.2-flash:free",
+      "name": "inclusionAI: Ling 3.2 Flash (free)",
       "output_types": [
         "text"
       ],
       "free_type": "free_variant",
-      "model_url": "https://openrouter.ai/liquid/lfm-2.5-2.6b:free",
+      "model_url": "https://openrouter.ai/inclusionai/ling-3.2-flash:free",
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -129,7 +115,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -143,7 +129,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -157,7 +143,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -171,7 +157,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -185,7 +171,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -199,7 +185,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -213,7 +199,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "openrouter",
@@ -227,7 +213,7 @@
       "api_key_url": "https://openrouter.ai/settings/keys",
       "docs_url": "https://openrouter.ai/docs/quickstart",
       "source_url": "https://openrouter.ai/api/v1/models",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "groq",
@@ -241,7 +227,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "groq",
@@ -255,7 +241,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "groq",
@@ -269,7 +255,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "groq",
@@ -283,7 +269,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "groq",
@@ -297,7 +283,7 @@
       "api_key_url": "https://console.groq.com/keys",
       "docs_url": "https://console.groq.com/docs/quickstart",
       "source_url": "https://console.groq.com/docs/rate-limits",
-      "last_updated": "2026-11-13"
+      "last_updated": "2026-11-14"
     },
     {
       "provider": "gemini",
